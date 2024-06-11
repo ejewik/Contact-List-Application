@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact Application</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    My Contacts
+  </header>
+  <div class="flex-container">
+    <div id="contact_form_container">
+      <h1>New Contact</h1>
+      <form name="contact_form">
+        <div class="input_container">
+          <div class="label_container">
+            <label for="fname">First Name</label>
+          </div>
+          <input type="text" placeholder="Enter first name" id="fname" name="fname">
+        </div>
+        <br>
+        <div class="input_container">
+          <div class="label_container">
+            <label for="lname">Last Name</label>
+          </div>
+          <input type="text" placeholder="Enter last name" id="lname" name="lname">
+        </div>
+        <br>
+        <div class="input_container">
+          <div class="label_container">
+            <label for="pnumber">Phone Number</label>
+          </div>
+          <input type="text" placeholder="707-334-4567" id="pnumber" name="pnumber">
+        </div>
+        <br>
+        <div id="add_contact_btn">
+          <input type="submit" id="add" value="Add Contact">
+        </div>
+      </form>
+    </div>
+    <div>
+      <input type="search" id="search_input" onkeyup="searchTable()" placeholder="Search for a name...">
+      <table id="contact_table">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Phone Number</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>Alice</td>
+          <td>Wong</td>
+          <td>707-315-5454</td>
+          <td><button id="delete_button" onClick="deleteTableRow(this)">Delete</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

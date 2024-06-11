@@ -1,0 +1,126 @@
+* {
+  font-family: system-ui;
+  margin: 0
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: large;
+  color: #454a4f;
+  padding: 40px 100px 40px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+input[type=text] {
+  padding: 8px 10px;
+  border: 0px;
+  border-bottom: 1px solid #dadde0;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  font-weight: bold;
+  font-size: 11px;
+  width: 90px;
+  height: 35px;
+  border-radius: 28px;
+  border: none;
+  background-color: #1875e3;
+  color: white;
+  padding: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: lightskyblue;
+}
+
+input[type=search] {
+  padding: 8px 20px;
+  border: 1px solid #dadde0;
+  border-radius: 4px;
+}
+
+header {
+  font-weight: bold;
+  font-size: medium;
+  color: #717478;
+  padding: 20px 100px 20px;
+  box-shadow: 0 3px 15px 4px #dadde0
+}
+
+table {
+  font-weight: normal;
+  font-size: small;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: none;
+  padding: 20px 100px 20px;
+  box-shadow: 0 3px 15px 4px #f0f2f4;
+}
+
+th {
+  padding: 30px 50px 30px;
+  border: 1px solid #dadde0;
+  border-left: none;
+  border-right: none;
+}
+
+td {
+  padding: 30px 80px 30px;
+  border: 1px solid #dadde0;
+  border-left: none;
+  border-right: none;
+}
+
+p {
+  padding: 10px 100px 10px;
+  color: red;
+}
+
+.input_container {
+  padding: 5px 100px 5px;
+}
+
+.label_container {
+  padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+#add_contact_btn {
+  padding: 5px 100px 5px;
+}
+
+#delete_button:hover {
+  background-color: lightcoral;
+}
+
+#delete_button {
+  font-weight: bold;
+  font-size: 11px;
+  width: 70px;
+  height: 35px;
+  border-radius: 28px;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+#contact_form_container {
+  padding: 10px;
+  box-shadow: 0 3px 15px 4px #f0f2f4;
+  border-radius: 10px;
+}
