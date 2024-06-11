@@ -4,7 +4,7 @@ A lightweight application that allows the user to add, delete, and filter contac
 
 ## Usage
 
-Double-click the HTML file in the directory Contact_List_App to open the web application. 
+Clone the repository and double-click index.html in the project directory to trigger the browser to render the web application. 
 
 ## Technologies
 
